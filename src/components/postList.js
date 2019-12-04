@@ -27,11 +27,9 @@ class postList extends Component {
 	}
 }
 // 把 redux 的状态关联过来
-const mapStateToProps = (state) => {
-	return {
-		post: state.post
-	}
-}
+const mapStateToProps = (state) => ({
+	post: state.post
+})
 
 const mapDispatchToProps = {
 
